@@ -2,8 +2,6 @@
 <resources>
 
     <string name="app_name">Guardar imagen</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
     <string name="url">URL:</string>
     <string name="guardar_como">GUARDAR COMO:</string>
     <string name="guardar_en">GUARDAR EN:</string>

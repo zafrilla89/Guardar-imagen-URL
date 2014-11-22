@@ -117,11 +117,11 @@ public class Principal extends Activity {
                     Urlnoesimagen no=new Urlnoesimagen();
                     Principal.this.runOnUiThread(no);
                 }
-            } catch (MalformedURLException e) {
+             } catch (MalformedURLException e) {
                 e.printStackTrace();
                 Urlnoesimagen no=new Urlnoesimagen();
                 Principal.this.runOnUiThread(no);
-            } catch (IOException e) {
+             } catch (IOException e) {
                 e.printStackTrace();
                 Urlnoesimagen no=new Urlnoesimagen();
                 Principal.this.runOnUiThread(no);
