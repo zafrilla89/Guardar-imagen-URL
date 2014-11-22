@@ -109,7 +109,7 @@ public class Principal extends Activity {
                             Verimagen ver = new Verimagen();
                             Principal.this.runOnUiThread(ver);
                         } else {
-                            seleccionaradiobuton boton=new seleccionaradiobuton();
+                            Seleccionaradiobuton boton=new Seleccionaradiobuton();
                             Principal.this.runOnUiThread(boton);
                         }
                     }
@@ -136,7 +136,7 @@ public class Principal extends Activity {
         }
     }
 
-    private class seleccionaradiobuton extends Thread{
+    private class Seleccionaradiobuton extends Thread{
         @Override
         public void run(){
             tostada("Tienes que seleccionar un boton redondo");
@@ -154,7 +154,7 @@ public class Principal extends Activity {
         @Override
         public void run(){
             iv.setImageBitmap(myBitmap);
-            if (textoguardado==true) {
+            if (textoguardado) {
                 tostada("Imagen guardada");
             }
         }
